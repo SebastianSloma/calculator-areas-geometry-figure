@@ -5,11 +5,11 @@ from enum import IntEnum
 Menu_Figures = IntEnum('Menu_Figuers', 'Square Ractangle Circle Triangle Trapeze')
 
 choice = int(input("""Wybierz figure której pole chcesz obliczyć:
-1. Kwadrat
-2. Prostokąt
-3. Koło
-4. Trójkąt
-5. Trapez
+1. Square
+2. Ractangle
+3. Circle
+4. Triangle
+5. Trapeze
 """))
 
 if(choice == Menu_Figures.Square):
